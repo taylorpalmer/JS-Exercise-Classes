@@ -85,7 +85,7 @@ class Car {
   }
 
   fill(gallons) {
-    return (this.tank = this.tank + gallons);
+    this.tank = this.tank + gallons;
   }
 
   drive(distance) {
